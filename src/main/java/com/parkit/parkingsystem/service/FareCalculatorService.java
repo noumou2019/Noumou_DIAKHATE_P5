@@ -1,5 +1,8 @@
 package com.parkit.parkingsystem.service;
 
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
 import com.parkit.parkingsystem.constants.Fare;
 import com.parkit.parkingsystem.model.Ticket;
 
