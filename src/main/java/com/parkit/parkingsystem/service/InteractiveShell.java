@@ -42,6 +42,7 @@ public class InteractiveShell {
         }
     }
 
+
     private static void loadMenu(){
         System.out.println("Please select an option. Simply enter the number to choose an action");
         System.out.println("1 New Vehicle Entering - Allocate Parking Space");

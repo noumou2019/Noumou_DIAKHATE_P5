@@ -17,7 +17,6 @@ import com.parkit.parkingsystem.model.Ticket;
 public class TicketDAO {
 
     private static final Logger logger = LogManager.getLogger("TicketDAO");
-
     public DataBaseConfig dataBaseConfig = new DataBaseConfig();
 
     public boolean saveTicket(Ticket ticket) {
@@ -118,7 +117,6 @@ public class TicketDAO {
             dataBaseConfig.closeResultSet(rs);
             dataBaseConfig.closePreparedStatement(ps);
             dataBaseConfig.closeConnection(con);
-
         }
         return false;
     }

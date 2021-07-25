@@ -75,7 +75,7 @@ public class ParkingService {
     }
 
     public ParkingSpot getNextParkingNumberIfAvailable(){
-        int parkingNumber=0;
+        int parkingNumber = 0;
         ParkingSpot parkingSpot = null;
         try{
             ParkingType parkingType = getVehichleType();
