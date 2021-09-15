@@ -6,7 +6,9 @@ public class DBConstants {
 
     public static final String UPDATE_PARKING_SPOT = "update parking set available = ? where PARKING_NUMBER = ?";
 
-    public static final String SAVE_TICKET = "insert into ticket(PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME, CYCLIC_USER) values(?,?,?,?,?,?)";
+    public static final String SAVE_TICKET = "insert into " +
+            "ticket(PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME, CYCLIC_USER) " +
+            "values(?,?,?,?,?,?)";
 
     public static final String UPDATE_TICKET = "update ticket set PRICE=?, OUT_TIME=? where ID=?";
 
